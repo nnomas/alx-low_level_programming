@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- main - prince alphabet in lowercase and uppercase
+* main - prince alphabet in lowercase and uppercase
  *
  * Return: 0 (Success)
  */
