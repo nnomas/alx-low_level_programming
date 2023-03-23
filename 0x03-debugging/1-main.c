@@ -20,7 +20,8 @@ i = 0;
 *}
 */
 
-	printf("Infinite loop avoided!\n");
+
+printf("Infinite loop avoided! \\o/\n");
 
 	return (0);
 }
