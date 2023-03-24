@@ -1,20 +1,24 @@
 #include "main.h"
 
 /**
- * print_most_numbers - a function that prints the numbers, from 0 to 9
+ * more_numbers -print number from 0-14 10 times
  *
- * Return: 0-9, excluding 2 and 4, followed by new line
+ * Return: void
  */
-void print_most_numbers(void)
-{
-	int i;
 
-	for (i = 0; i <= 9; i++)
+void more_numbers(void)
+{
+	int i, j;
+
+	for (i = 1, i <= 10; i++)
+
+	for (j = 0, j <= 14, j++)
 	{
-		if ((i == 2) || (i == 4))
-			continue;
-		else
-			_putchar(i + '0');
+	if (j <= 10)
+	_putchar('i');
+	_putchar(j % 10 + '0');
 	}
-	_putchar('\n');
+	_putchar('\n')
+	}
 }
+
